@@ -1,0 +1,4 @@
+Spring IoC Contatiner is responsible for 
+1. Creating the objects(Spring beans)
+2. injeting one object to another object (using Dependency Injection)
+3. Managing the bean's entire life-cycle 
