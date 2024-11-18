@@ -6,4 +6,5 @@ Topics:
 2. Spring IoC Container
 3. Annotation Base Configuration
 4. Qualifier and Primary Annotation
-5. 
+5. Stereotype Annotation (@Controller @Service @Repository)
+6. 
