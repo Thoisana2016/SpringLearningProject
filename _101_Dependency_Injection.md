@@ -29,6 +29,17 @@ TYPES OF DEPENDENCY INJECTION
    
 3. SETTER INJECTION :
    ------------------
+   Setter Injection use setter method to inject the dependency of any spring manage bean.
+   We have to set the setter method with @Autowired annotation.
+   Spring will find the @Autowired annotation and called the setter to inject the depandency 
 
-4. FIELD INJECTION :
+5. FIELD INJECTION :
    -----------------
+
+
+
+   When to use Constructor Base and Setter Base DI in Spring:
+   ==========================================================
+   1. Use constructor-base DI for madatory dependencies so that our bean is ready to use when it is first time called.
+   2. Use setter-base DI only when optional dependencies
+   3. Use setter-base Di to avoid circular dependecies
