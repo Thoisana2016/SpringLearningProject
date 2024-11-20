@@ -17,3 +17,18 @@ DEPENDENCY INJECTION
   a. Constructor Injection
   b. Setter Injection
   c. Field Injection  
+
+
+TYPES OF DEPENDENCY INJECTION
+==============================
+1. CONSTRUCTION INJECTION:
+   -----------------------
+    Constructor injection uses the constructor to inject dependecy on any Spring-managed bean.
+   Before Spring 4.3, we had to add an @Autowired annotation to the constructor. With newer versions, this is optional if the class has only one constructor.
+   When we have a class with multiple constructors, we need to explicitly add the @Autowired annotation to any one of the constructors so that Spring knows which constructor to use to inject dependencies.
+   
+3. SETTER INJECTION :
+   ------------------
+
+4. FIELD INJECTION :
+   -----------------
