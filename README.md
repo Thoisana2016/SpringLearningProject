@@ -12,4 +12,5 @@ Topics:
    b. Using Interface for Spring
 
 7. Constructor Injection
-8. 
+8. Setter Injection
+9. 
