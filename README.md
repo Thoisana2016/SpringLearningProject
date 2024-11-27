@@ -13,4 +13,6 @@ Topics:
 
 7. Constructor Injection
 8. Setter Injection
-9. Bean Annotation 
+9. Bean Annotation
+10. Exercise : Sending an eMail
+11. 
